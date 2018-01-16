@@ -1,0 +1,398 @@
+body {
+	backgro und-color: white;
+}
+
+input[type="text"],input[type="tel"],input[type="password"],input[type="email"],select{
+    margin-left: auto;
+    margin-right: auto;
+	box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 50%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+
+input[type="submit"], #BtnModif{
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+    background-color: #F5B027;
+    display: block;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    width: auto;
+}
+
+h3{
+	margin-right: auto;
+    margin-left: auto;
+	background: #4D4D4D;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+ 	width: 40%;
+ 	padding: 8px;
+ 	text-align: center;
+}
+
+select{	
+	box-sizing: border-box;
+    outline: none;
+    width: auto;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+
+ul{
+    list-style-type: none; 
+}
+
+.container h2{
+    margin-left: auto;
+    margin-right: auto;
+	background: #4D4D4D;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+ 	width: 50%;.
+ 	padding: 8px;
+    text-align : center;
+
+}
+
+.container input[type="submit"]{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5B027;
+    display: block;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    margin-bottom : 10%;
+}
+
+.enstock{
+	color: green;
+	font-size: 1.5em;
+}
+
+.horsstock{
+	color: red;
+	font-size: 1.5em;
+} 
+
+.menu
+{
+	color: #e7d412;
+    text-decoration: none;
+	font-family: Raleway,sans-serif;
+	font-size: 20px;
+	line-height: 4; 
+	margin-bottom: 10px;
+	text-align : left;
+	background-color : #383640;
+}
+
+.list-menu
+{
+	margin-left: 5%;
+	color: #e7d412;
+	text-decoration: none; 
+}
+
+.list-menu:hover
+{
+	margin-left: 5%;
+	color: white;
+	
+}
+
+.titleFnacWelcome
+{
+	text-align : center;
+	color : #ffd421;
+	margin-top : 10%;
+	font-family: Raleway,sans-serif;
+	font-size: 100px;
+}
+
+.adressesperso
+{
+	color : #3E3730;
+	margin-bottom: 10px;
+	text-decoration:e;
+}
+
+.adressesperso:hover
+{
+	color : #325A63;
+	text-decoration: none;              
+}
+
+.adresselivraison
+{
+	background: #4D4D4D;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+ 	width: 20%;
+ 	padding: 8px;
+ 	margin-top: 5px;
+}
+
+.adresseFacturation
+{
+	background: orange;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+ 	width: 20%;
+ 	padding: 8px;
+ 	margin-top: 5px;
+}
+
+.title{
+	color: orange;
+}
+
+.avis{
+	border: 5px solid #fff;
+  -moz-box-shadow: 4px 4px 6px #aaa; 
+  -webkit-box-shadow: 4px 4px 6px #aaa; 
+  box-shadow: 4px 4px 6px #555; 
+	margin-right:10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 1px double grey;
+	padding: 10px;
+	min-width: 300px;
+	max-width: auto;
+}
+
+.allAvis{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.pseudoAvis{
+	font-weight: bold;
+}
+#fichepdt{
+	font-weight:  bold;
+}
+
+#allFichePdt{
+	font-size: 1.3em;
+	margin-bottom: 100px;
+}
+
+#ficheRegler{
+	margin-left: 500px;
+	margin-right: 20%;
+	margin-top: -440px;
+}
+
+#all{
+	display: flex;
+	flex-direction: row;
+	margin-left: 20%;
+}
+
+#titleType, #titleFab, #titleRub{
+	width: auto;
+	margin-right: 20px;
+	color: white;
+}
+
+#avisDejaSignale{
+	color:red;
+}
+
+#DivAvis{
+	background-color: lightgray;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto; 
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+}
+
+#titleAvis{
+	margin-top: 
+	margin-left: 1%;
+	width: 17%;
+	margin-right:auto;
+	margin-left: auto; 
+	width: 500px;
+	background-color: white;
+}
+
+#textAvis{
+	margin-right:auto;
+	margin-left: 50px; 
+	width: 500px;
+}
+
+#note{
+	margin-left: 0;
+	font-size: 20px;
+}
+
+#sendAvis{
+	margin-right:auto;
+	margin-left: auto;
+	width: 500px;
+}
+
+#selectRech{
+	width: 95%;
+}
+
+#a, #b, #c{
+	margin-right: 2%;
+	margin-left: 2%;
+	border: 1px double grey;
+	padding: 10px;
+	 border: 5px solid #fff;
+  -moz-box-shadow: 4px 4px 6px #aaa; 
+  -webkit-box-shadow: 4px 4px 6px #aaa; 
+  box-shadow: 4px 4px 6px #555;
+}
+
+#resRub, #resFab, #resType{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#title, #repRub, #repFab, #repType{
+	color: white;
+}
+
+.commande{
+	border: 5px solid #fff;
+  -moz-box-shadow: 4px 4px 6px #aaa; 
+  -webkit-box-shadow: 4px 4px 6px #aaa; 
+  box-shadow: 4px 4px 6px #555; 
+	margin-right: 2%;
+	margin-left: 2%;
+	border: 1px double grey;
+	padding: 20px;
+	margin-bottom: 20px; 
+	min-width: 40%;
+	max-width: 45%;
+}
+
+#fullCommandes{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#product{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#lien{
+	font-size: 1.3em;
+}
+
+#typeAdresse, #paysAdresse, #civilite, #mag, #pays{
+	margin-left: 25%;
+}
+
+#cmdPasse{
+	border: 5px solid #fff;
+  -moz-box-shadow: 4px 4px 6px #aaa; 
+  -webkit-box-shadow: 4px 4px 6px #aaa; 
+  box-shadow: 4px 4px 6px #555; 
+	margin-right: 2%;
+	margin-left: 2%;
+	border: 1px double grey;
+	padding: 20px;
+	width: auto;
+}
+
+span{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#nomCmd{
+	font-style: italic;
+}
+
+#z{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ErrorMessageConnexion{
+    margin-left: auto;
+    margin-right: auto;
+	box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 50%;
+    padding: 7px;
+    color: red;
+    border: none;
+    background: transparent;
+    margin-top: -10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+
+#ComButton
+{
+	margin-left: auto;
+	text-align: center;
+	margin-right: auto;
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#FPphoto{
+	overflow-x: auto;
+	overflow-y: hidden; 
+	height: auto; 
+	width:300px; 
+	margin-bottom: 50px;
+	display: flex;
+}
+
+#formAjoutCarte{
+	border: 5px solid #fff;
+  -moz-box-shadow: 4px 4px 6px #aaa; 
+  -webkit-box-shadow: 4px 4px 6px #aaa; 
+  box-shadow: 4px 4px 6px #555; 
+	margin-right: 2%;
+	margin-left: 2%;
+	border: 1px double grey;
+	padding: 20px;
+	margin-bottom: 20px; 
+	min-width: 40%;
+	max-width: 45%;
+}
+
+div.menu a{
+	text-decoration: none;
+}
